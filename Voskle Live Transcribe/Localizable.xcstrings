@@ -1,0 +1,976 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "About the app" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über die App"
+          }
+        }
+      }
+    },
+    "American English" : {
+      "comment" : "Localized language name for American English",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amerikanisches Englisch"
+          }
+        }
+      }
+    },
+    "Appearance" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erscheinungsbild"
+          }
+        }
+      }
+    },
+    "Arabic" : {
+      "comment" : "Localized language name for Arabic",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabisch"
+          }
+        }
+      }
+    },
+    "Attempts to download the model again" : {
+      "comment" : "Accessibility hint for the retry downloading button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versucht das Modell erneut herunter zu laden."
+          }
+        }
+      }
+    },
+    "Audio engine error" : {
+      "comment" : "The title of the audio engine error.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio-Engine-Fehler"
+          }
+        }
+      }
+    },
+    "Auto" : {
+      "comment" : "Label for the auto theme setting",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch"
+          }
+        }
+      }
+    },
+    "Autoscroll on braille displays" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisches Weiterbewegen auf Braillezeilen"
+          }
+        }
+      }
+    },
+    "Behavior" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verhalten"
+          }
+        }
+      }
+    },
+    "Breton" : {
+      "comment" : "Localized language name for Breton",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bretonisch"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "comment" : "The label for the cancel download button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "Cannot open contact URL" : {
+      "comment" : "Title of the URL opening error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kann Kontakt-URL nicht öffnen"
+          }
+        }
+      }
+    },
+    "Catalan" : {
+      "comment" : "Localized language name for Catalan",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katalanisch"
+          }
+        }
+      }
+    },
+    "Chinese" : {
+      "comment" : "Localized language name for Chinese",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chinesisch"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "comment" : "Close a modal dialog",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        }
+      }
+    },
+    "Closes this modal dialog" : {
+      "comment" : "Accessibility hint for the close button of a modal dialog",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließt den Dialog"
+          }
+        }
+      }
+    },
+    "Confirm" : {
+      "comment" : "The label of the confirm download button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestätigen"
+          }
+        }
+      }
+    },
+    "Confirm model download" : {
+      "comment" : "The title of the model download confirmation dialog",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herunterladen des Sprachmodells bestätigen"
+          }
+        }
+      }
+    },
+    "Contact us" : {
+      "comment" : "Text for the contact buttons in error modals and the settings",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontaktieren Sie uns"
+          }
+        }
+      }
+    },
+    "Copyright © 2024 Tim Böttcher" : {
+
+    },
+    "Couldn't open the app's area in the system settings. Please navigate there manually." : {
+      "comment" : "Message of the settings opening failed error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konnte den Einstellungsbereich für die App in den Systemeinstellungen nicht öffnen. Bitte navigieren Sie manuell dort hin."
+          }
+        }
+      }
+    },
+    "Czech" : {
+      "comment" : "Localized language name for Czech",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tschechisch"
+          }
+        }
+      }
+    },
+    "Dark" : {
+      "comment" : "Label for the dark theme setting",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dunkel"
+          }
+        }
+      }
+    },
+    "Delete transcript" : {
+      "comment" : "Label for the delete transcript button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkript löschen"
+          }
+        }
+      }
+    },
+    "Downloading model..." : {
+      "comment" : "downloading app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Sprachmodell herunter..."
+          }
+        }
+      }
+    },
+    "Downloading the language model for %@ failed. Please check your internet connection and make sure there's enough space on your device." : {
+      "comment" : "Message of the model download failed error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Herunterladen des Sprachmodells für %@ ist fehlgeschlagen. Bitte überprüfen Sie ihre Internetverbindung und stellen Sie sicher, dass ausreichend Speicherplatz auf Ihrem Gerät verfügbar ist."
+          }
+        }
+      }
+    },
+    "Drafts a feedback email" : {
+      "comment" : "Accessibility hint for the contact us button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwirft eine E-Mail für Rückmeldungen"
+          }
+        }
+      }
+    },
+    "Dutch" : {
+      "comment" : "Localized language name for Dutch",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niederländisch"
+          }
+        }
+      }
+    },
+    "Esperanto" : {
+      "comment" : "Localized language name for Esperanto"
+    },
+    "Failed to open settings" : {
+      "comment" : "Title for the settings opening failed error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnen der Einstellungen fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Failed to start the audio engine and thus can't record audio input. Reason: %@" : {
+      "comment" : "The message of the audio engine error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konnte die Audio-Engine nicht starten und kann daher nicht aufnehmen. Grund: %@"
+          }
+        }
+      }
+    },
+    "French" : {
+      "comment" : "Localized language name for French",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Französisch"
+          }
+        }
+      }
+    },
+    "General" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allgemein"
+          }
+        }
+      }
+    },
+    "German" : {
+      "comment" : "Localized language name for German",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deutsch"
+          }
+        }
+      }
+    },
+    "Got an unexpected result while checking the microphone permissions. Please contact us if the problem persists" : {
+      "comment" : "message of the unknown permissions result error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhielt ein unerwartetes Ergebnis beim Prüfen der Mikrofonberechtigungen. Bitte kontaktieren Sie uns, falls das Problem bestehen bleibt."
+          }
+        }
+      }
+    },
+    "Gujarati" : {
+      "comment" : "Localized language name for Gujarati"
+    },
+    "High contrast" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoher Kontrast"
+          }
+        }
+      }
+    },
+    "Hindi" : {
+      "comment" : "Localized language name for Hindi"
+    },
+    "Indian English" : {
+      "comment" : "Localized language name for Indian English",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indisches Englisch"
+          }
+        }
+      }
+    },
+    "Insufficient permissions" : {
+      "comment" : "Title of the insufficient permissions dialog",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungenügende Berechtigungen"
+          }
+        }
+      }
+    },
+    "Invalid contact URL" : {
+      "comment" : "the title of the invalid contact URL error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Kontakt-URL"
+          }
+        }
+      }
+    },
+    "Invalid data" : {
+      "comment" : "Title of the data error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Daten"
+          }
+        }
+      }
+    },
+    "Italian" : {
+      "comment" : "Localized language name for Italian",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Italienisch"
+          }
+        }
+      }
+    },
+    "Japanese" : {
+      "comment" : "Localized language name for Japanese",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japanisch"
+          }
+        }
+      }
+    },
+    "Kazakh" : {
+      "comment" : "Localized language name for Kazakh",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kasachisch"
+          }
+        }
+      }
+    },
+    "Keep transcribing while the app isn't focused" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkription fortsetzen, während die App nicht fokussiert ist"
+          }
+        }
+      }
+    },
+    "Keyboard input" : {
+      "comment" : "Label of the keyboard input toggle",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastatureingabe"
+          }
+        }
+      }
+    },
+    "Korean" : {
+      "comment" : "Localized language name for Korean",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreanisch"
+          }
+        }
+      }
+    },
+    "Large" : {
+      "comment" : "Large font size option",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groß"
+          }
+        }
+      }
+    },
+    "Largest" : {
+      "comment" : "Largest font size option",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Größte"
+          }
+        }
+      }
+    },
+    "Licensed under the Apache license, version 2.0." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lizenziert unter der Apache-Lizenz, Version 2.0."
+          }
+        }
+      }
+    },
+    "Light" : {
+      "comment" : "Label for the light theme setting",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hell"
+          }
+        }
+      }
+    },
+    "Model download failed" : {
+      "comment" : "Title of the model download failed error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herunterladen des Modells fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Model downloaded successfully!" : {
+      "comment" : "The title of the download success modal dialog.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprachmodell erfolgreich herunter geladen!"
+          }
+        }
+      }
+    },
+    "Model not downloaded" : {
+      "comment" : "notDownloaded app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprachmodell nicht heruntergeladen"
+          }
+        }
+      }
+    },
+    "Model unpacking failed" : {
+      "comment" : "The title of the model unpacking failed error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entpacken des Sprachmodells fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Normal" : {
+      "comment" : "normal font size option",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        }
+      }
+    },
+    "Open settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen öffnen"
+          }
+        }
+      }
+    },
+    "Opening the contact URL failed. Please manually write an email to projects@almost-senseless.tech if the problem persists." : {
+      "comment" : "The message of the URL opening error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Öffnen der Kontakt-URL ist fehlgeschlagen. Bitte schreiben Sie manuell eine E-Mail an projects@almost-senseless.tech, falls das Problem bestehen bleibt."
+          }
+        }
+      }
+    },
+    "Persian" : {
+      "comment" : "Localized language name for Persian",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farsi"
+          }
+        }
+      }
+    },
+    "Polish" : {
+      "comment" : "Localized language name for Polish",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polnisch"
+          }
+        }
+      }
+    },
+    "Portuguese" : {
+      "comment" : "Localized language name for Portuguese",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portugiesisch"
+          }
+        }
+      }
+    },
+    "Ready" : {
+      "comment" : "ready app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betriebsbereit"
+          }
+        }
+      }
+    },
+    "Received invalid data from the VOSK engine: %@" : {
+      "comment" : "Message of the data error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhielt ungültige Daten von der VOSK-Bibliothek: %@"
+          }
+        }
+      }
+    },
+    "Recording" : {
+      "comment" : "recording app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufnahme läuft"
+          }
+        }
+      }
+    },
+    "Russian" : {
+      "comment" : "Localized language name for Russian",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Russisch"
+          }
+        }
+      }
+    },
+    "Select language (currently %@)" : {
+      "comment" : "Label of the language picker",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache wählen (aktuell %@)"
+          }
+        }
+      }
+    },
+    "Setting model up..." : {
+      "comment" : "modelInit app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setze Sprachmodell auf..."
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        }
+      }
+    },
+    "Spanish" : {
+      "comment" : "Localized language name for Spanish",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanisch"
+          }
+        }
+      }
+    },
+    "Start transcribing" : {
+      "comment" : "Label for the start transcribing button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkription starten"
+          }
+        }
+      }
+    },
+    "Stop transcribing" : {
+      "comment" : "Label for the stop transcribing button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkription stoppen"
+          }
+        }
+      }
+    },
+    "Swedish" : {
+      "comment" : "Localized language name for Swedish",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwedisch"
+          }
+        }
+      }
+    },
+    "Swipe down with three fingers to close this modal dialog." : {
+      "comment" : "Accessibility hint for the modal dialog container",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit drei Finger nach unten Wischen, um den Dialog zu schließen."
+          }
+        }
+      }
+    },
+    "The email URL to contact us is invalid. This is a definite bug, please manually write an email to projects@almost-senseless.tech to report this error." : {
+      "comment" : "The message for the invalid contact URL error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Kontakt-E-Mail-URL ist ungültig. Dies ist definitiv ein Programmfehler, bitte schreiben Sie uns manuell eine E-Mail an projects@almost-senseless.tech."
+          }
+        }
+      }
+    },
+    "The model for %@ isn't available on your device yet. Downloading it requires an internet connection and may take a minute. Do you want to download it?" : {
+      "comment" : "The message of the download confirmation dialog",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Sprachmodell für %@ ist noch nicht auf Ihrem Gerät verfügbar. Es herunter zu laden erfordert eine Internetverbindung und könnte eine Minute dauern. Möchten Sie fortfahren?"
+          }
+        }
+      }
+    },
+    "The model for %@ was downloaded successfully. In the future you won't have to download it again until you uninstall the app." : {
+      "comment" : "The message of the download successful modal dialog.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Sprachmodell für %@ wurde erfolgreich herunter geladen. Zukünftig müssen Sie dies nicht mehr tun, bis Sie die App deinstallieren."
+          }
+        }
+      }
+    },
+    "Theme" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbschema"
+          }
+        }
+      }
+    },
+    "Toggles transcript editing on or off" : {
+      "comment" : "Accessibility hint for the keyboard input toggle",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaltet die Transkriptbearbeitung ein oder aus"
+          }
+        }
+      }
+    },
+    "Transcript font size" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schriftgröße des Transkripts"
+          }
+        }
+      }
+    },
+    "Transcript:" : {
+      "comment" : "Label of the transcript text view",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkript:"
+          }
+        }
+      }
+    },
+    "Transcription paused" : {
+      "comment" : "Paused app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transkription pausiert"
+          }
+        }
+      }
+    },
+    "Try again" : {
+      "comment" : "The label for the retry downloading button",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "Turkish" : {
+      "comment" : "Localized language name for Turkish",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Türkisch"
+          }
+        }
+      }
+    },
+    "Ukrainian" : {
+      "comment" : "Localized language name for Ukrainian",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukrainisch"
+          }
+        }
+      }
+    },
+    "Unknown permissions" : {
+      "comment" : "title of the unknown permissions result error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekannte Berechtigungen"
+          }
+        }
+      }
+    },
+    "Unpacking model..." : {
+      "comment" : "unpacking app status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entpacke Sprachmodell..."
+          }
+        }
+      }
+    },
+    "Unpacking the model for %@ to the cache directory failed. Please make sure there's enough space on your device." : {
+      "comment" : "Message of the model unpacking failed error",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Entdecken des Sprachmodells für %@ in den Cache-Ordner ist fehlgeschlagen . Stellen Sie sicher, dass ausreichend Speicherplatz auf Ihrem Gerät verfügbar ist."
+          }
+        }
+      }
+    },
+    "Uzbek" : {
+      "comment" : "Localized language name for Uzbek",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usbekisch"
+          }
+        }
+      }
+    },
+    "Vietnamese" : {
+      "comment" : "Localized language name for Vietnamese",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietnamesisch"
+          }
+        }
+      }
+    },
+    "Visual autoscroll" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visuelles automatisches Weiterbewegen"
+          }
+        }
+      }
+    },
+    "Voskle Live Transcribe needs access to the microphone to record and transcribe speech. However, this access is currently denied. Go to the system settings to change that." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voskle Live-Transkription benötigt Zugriff auf Ihr Mikrofon, um Sprache aufnehmen und transkribieren zu können. Diese Berechtigung wurde aktuell jedoch nicht erteilt. Bitte ändern Sie dies in den Systemeinstellungen."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

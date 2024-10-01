@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730E7E4E2C1B270F0035E999 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 730E7E4D2C1B270F0035E999 /* Zip */; };
+		730E7E502C1B2D670035E999 /* VLTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730E7E4F2C1B2D670035E999 /* VLTViewModel.swift */; };
+		730E7E522C1B34F90035E999 /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730E7E512C1B34F90035E999 /* language.swift */; };
+		730E7E542C1C29390035E999 /* modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730E7E532C1C29390035E999 /* modal.swift */; };
+		730E7E562C1D81870035E999 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730E7E552C1D81870035E999 /* AppError.swift */; };
+		732F7D6C2C354A5F009A4471 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73A844692C3546180002AEA6 /* InfoPlist.strings */; };
+		7336D74E2C1F35BD00B6AA30 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7336D74C2C1F35A600B6AA30 /* Accelerate.framework */; };
+		736C4CC02BCC0527002A6944 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 736C4CBF2BCC0527002A6944 /* Localizable.xcstrings */; };
+		736F976F2C316C44009C33E7 /* AppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F976E2C316C44009C33E7 /* AppStatus.swift */; };
+		736F97732C32B54B009C33E7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F97722C32B54B009C33E7 /* Color.swift */; };
+		736F97752C32B5D0009C33E7 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F97742C32B5D0009C33E7 /* Typography.swift */; };
+		736F97772C32B6B8009C33E7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F97762C32B6B8009C33E7 /* Theme.swift */; };
+		736F97792C344EF6009C33E7 /* ThemeSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F97782C344EF6009C33E7 /* ThemeSetting.swift */; };
+		7377FF222C15BBC70041BCCD /* VoskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377FF212C15BBC70041BCCD /* VoskModel.swift */; };
+		7377FF232C15BBC70041BCCD /* VoskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377FF212C15BBC70041BCCD /* VoskModel.swift */; };
+		7377FF242C15BBC70041BCCD /* VoskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377FF212C15BBC70041BCCD /* VoskModel.swift */; };
+		7377FF262C15BBE30041BCCD /* Vosk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377FF252C15BBE30041BCCD /* Vosk.swift */; };
+		7377FF272C15BBE30041BCCD /* Vosk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377FF252C15BBE30041BCCD /* Vosk.swift */; };
+		7377FF282C15BBE30041BCCD /* Vosk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377FF252C15BBE30041BCCD /* Vosk.swift */; };
+		7377FF292C15BC460041BCCD /* libvosk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736C4CBD2BCBDC17002A6944 /* libvosk.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7377FF2E2C15CEA70041BCCD /* libvosk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7377FF2C2C15CEA70041BCCD /* libvosk.xcframework */; };
+		7377FF2F2C15CEA70041BCCD /* libvosk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7377FF2C2C15CEA70041BCCD /* libvosk.xcframework */; };
+		7377FF302C161F7F0041BCCD /* libvosk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7377FF2C2C15CEA70041BCCD /* libvosk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		737C8CE42BCAE91000C8B81B /* VoskleLiveTranscribeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C8CE32BCAE91000C8B81B /* VoskleLiveTranscribeApp.swift */; };
+		737C8CE62BCAE91000C8B81B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C8CE52BCAE91000C8B81B /* ContentView.swift */; };
+		737C8CE82BCAE91100C8B81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737C8CE72BCAE91100C8B81B /* Assets.xcassets */; };
+		737C8CEB2BCAE91100C8B81B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737C8CEA2BCAE91100C8B81B /* Preview Assets.xcassets */; };
+		737C8CF52BCAE91100C8B81B /* Voskle_Live_TranscribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C8CF42BCAE91100C8B81B /* Voskle_Live_TranscribeTests.swift */; };
+		737C8CFF2BCAE91100C8B81B /* Voskle_Live_TranscribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C8CFE2BCAE91100C8B81B /* Voskle_Live_TranscribeUITests.swift */; };
+		737C8D012BCAE91100C8B81B /* Voskle_Live_TranscribeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C8D002BCAE91100C8B81B /* Voskle_Live_TranscribeUITestsLaunchTests.swift */; };
+		7384D56A2C273C6800069AE7 /* TranscriptionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384D5692C273C6800069AE7 /* TranscriptionResult.swift */; };
+		7384D5702C273EBE00069AE7 /* PartialTranscriptionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384D56F2C273EBE00069AE7 /* PartialTranscriptionResult.swift */; };
+		7384D5722C2807DB00069AE7 /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384D5712C2807DB00069AE7 /* TranscriptView.swift */; };
+		7384D5742C2B023900069AE7 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384D5732C2B023900069AE7 /* util.swift */; };
+		7386BB052C35E1B500D1E866 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386BB042C35E1B500D1E866 /* FontSize.swift */; };
+		73CC01292C20C49400B1D724 /* LanguagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC01282C20C49400B1D724 /* LanguagePicker.swift */; };
+		73F29EF92C2E02EA007E70C5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F29EF82C2E02EA007E70C5 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		737C8CF12BCAE91100C8B81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737C8CD82BCAE91000C8B81B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737C8CDF2BCAE91000C8B81B;
+			remoteInfo = "Voskle Live Transcribe";
+		};
+		737C8CFB2BCAE91100C8B81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737C8CD82BCAE91000C8B81B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737C8CDF2BCAE91000C8B81B;
+			remoteInfo = "Voskle Live Transcribe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7377FF312C161F7F0041BCCD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7377FF302C161F7F0041BCCD /* libvosk.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		730E7E4F2C1B2D670035E999 /* VLTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLTViewModel.swift; sourceTree = "<group>"; };
+		730E7E512C1B34F90035E999 /* language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = language.swift; path = data/language.swift; sourceTree = "<group>"; };
+		730E7E532C1C29390035E999 /* modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modal.swift; sourceTree = "<group>"; };
+		730E7E552C1D81870035E999 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		7336D74C2C1F35A600B6AA30 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		736C4CBD2BCBDC17002A6944 /* libvosk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libvosk.xcframework; sourceTree = "<group>"; };
+		736C4CBF2BCC0527002A6944 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		736F976D2C2F17BD009C33E7 /* AppStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppStatus.swift; path = "Voskle Live Transcribe/data/AppStatus.swift"; sourceTree = "<group>"; };
+		736F976E2C316C44009C33E7 /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStatus.swift; path = data/AppStatus.swift; sourceTree = "<group>"; };
+		736F97722C32B54B009C33E7 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = theme/Color.swift; sourceTree = "<group>"; };
+		736F97742C32B5D0009C33E7 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Typography.swift; path = theme/Typography.swift; sourceTree = "<group>"; };
+		736F97762C32B6B8009C33E7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = theme/Theme.swift; sourceTree = "<group>"; };
+		736F97782C344EF6009C33E7 /* ThemeSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeSetting.swift; path = theme/ThemeSetting.swift; sourceTree = "<group>"; };
+		7377FF1F2C15B8440041BCCD /* bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bridging.h; path = "Voskle Live Transcribe/bridging.h"; sourceTree = "<group>"; };
+		7377FF202C15B8710041BCCD /* vosk_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vosk_api.h; path = "Voskle Live Transcribe/vosk_api.h"; sourceTree = "<group>"; };
+		7377FF212C15BBC70041BCCD /* VoskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoskModel.swift; path = "Voskle Live Transcribe/VoskModel.swift"; sourceTree = "<group>"; };
+		7377FF252C15BBE30041BCCD /* Vosk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vosk.swift; path = "Voskle Live Transcribe/Vosk.swift"; sourceTree = "<group>"; };
+		7377FF2C2C15CEA70041BCCD /* libvosk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libvosk.xcframework; sourceTree = "<group>"; };
+		737C8CE02BCAE91000C8B81B /* Voskle Live Transcribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voskle Live Transcribe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		737C8CE32BCAE91000C8B81B /* VoskleLiveTranscribeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoskleLiveTranscribeApp.swift; sourceTree = "<group>"; };
+		737C8CE52BCAE91000C8B81B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		737C8CE72BCAE91100C8B81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		737C8CEA2BCAE91100C8B81B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		737C8CF02BCAE91100C8B81B /* Voskle Live TranscribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voskle Live TranscribeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		737C8CF42BCAE91100C8B81B /* Voskle_Live_TranscribeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voskle_Live_TranscribeTests.swift; sourceTree = "<group>"; };
+		737C8CFA2BCAE91100C8B81B /* Voskle Live TranscribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voskle Live TranscribeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		737C8CFE2BCAE91100C8B81B /* Voskle_Live_TranscribeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voskle_Live_TranscribeUITests.swift; sourceTree = "<group>"; };
+		737C8D002BCAE91100C8B81B /* Voskle_Live_TranscribeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voskle_Live_TranscribeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7384D5692C273C6800069AE7 /* TranscriptionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionResult.swift; sourceTree = "<group>"; };
+		7384D56F2C273EBE00069AE7 /* PartialTranscriptionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialTranscriptionResult.swift; sourceTree = "<group>"; };
+		7384D5712C2807DB00069AE7 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		7384D5732C2B023900069AE7 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		7386BB042C35E1B500D1E866 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontSize.swift; path = data/FontSize.swift; sourceTree = "<group>"; };
+		73A8446A2C3546180002AEA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73A8446B2C3546570002AEA6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73CC01282C20C49400B1D724 /* LanguagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePicker.swift; sourceTree = "<group>"; };
+		73F29EF82C2E02EA007E70C5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737C8CDD2BCAE91000C8B81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7336D74E2C1F35BD00B6AA30 /* Accelerate.framework in Frameworks */,
+				730E7E4E2C1B270F0035E999 /* Zip in Frameworks */,
+				7377FF292C15BC460041BCCD /* libvosk.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C8CED2BCAE91100C8B81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377FF2E2C15CEA70041BCCD /* libvosk.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C8CF72BCAE91100C8B81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377FF2F2C15CEA70041BCCD /* libvosk.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7336D74B2C1F357600B6AA30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7336D74C2C1F35A600B6AA30 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		737C8CD72BCAE91000C8B81B = {
+			isa = PBXGroup;
+			children = (
+				73A844692C3546180002AEA6 /* InfoPlist.strings */,
+				736F976D2C2F17BD009C33E7 /* AppStatus.swift */,
+				7377FF252C15BBE30041BCCD /* Vosk.swift */,
+				7377FF212C15BBC70041BCCD /* VoskModel.swift */,
+				7377FF202C15B8710041BCCD /* vosk_api.h */,
+				7377FF1F2C15B8440041BCCD /* bridging.h */,
+				737C8CE22BCAE91000C8B81B /* Voskle Live Transcribe */,
+				737C8CF32BCAE91100C8B81B /* Voskle Live TranscribeTests */,
+				737C8CFD2BCAE91100C8B81B /* Voskle Live TranscribeUITests */,
+				737C8CE12BCAE91000C8B81B /* Products */,
+				7336D74B2C1F357600B6AA30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		737C8CE12BCAE91000C8B81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737C8CE02BCAE91000C8B81B /* Voskle Live Transcribe.app */,
+				737C8CF02BCAE91100C8B81B /* Voskle Live TranscribeTests.xctest */,
+				737C8CFA2BCAE91100C8B81B /* Voskle Live TranscribeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737C8CE22BCAE91000C8B81B /* Voskle Live Transcribe */ = {
+			isa = PBXGroup;
+			children = (
+				736F97722C32B54B009C33E7 /* Color.swift */,
+				736F97742C32B5D0009C33E7 /* Typography.swift */,
+				7386BB042C35E1B500D1E866 /* FontSize.swift */,
+				736F97762C32B6B8009C33E7 /* Theme.swift */,
+				736F976E2C316C44009C33E7 /* AppStatus.swift */,
+				737C8CE32BCAE91000C8B81B /* VoskleLiveTranscribeApp.swift */,
+				737C8CE52BCAE91000C8B81B /* ContentView.swift */,
+				7384D5712C2807DB00069AE7 /* TranscriptView.swift */,
+				73F29EF82C2E02EA007E70C5 /* SettingsView.swift */,
+				7384D5692C273C6800069AE7 /* TranscriptionResult.swift */,
+				7384D56F2C273EBE00069AE7 /* PartialTranscriptionResult.swift */,
+				73CC01282C20C49400B1D724 /* LanguagePicker.swift */,
+				730E7E552C1D81870035E999 /* AppError.swift */,
+				736C4CBF2BCC0527002A6944 /* Localizable.xcstrings */,
+				730E7E4F2C1B2D670035E999 /* VLTViewModel.swift */,
+				736F97782C344EF6009C33E7 /* ThemeSetting.swift */,
+				730E7E532C1C29390035E999 /* modal.swift */,
+				730E7E512C1B34F90035E999 /* language.swift */,
+				7384D5732C2B023900069AE7 /* util.swift */,
+				737C8CE72BCAE91100C8B81B /* Assets.xcassets */,
+				736C4CBD2BCBDC17002A6944 /* libvosk.xcframework */,
+				7377FF2C2C15CEA70041BCCD /* libvosk.xcframework */,
+				737C8CE92BCAE91100C8B81B /* Preview Content */,
+			);
+			path = "Voskle Live Transcribe";
+			sourceTree = "<group>";
+		};
+		737C8CE92BCAE91100C8B81B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				737C8CEA2BCAE91100C8B81B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		737C8CF32BCAE91100C8B81B /* Voskle Live TranscribeTests */ = {
+			isa = PBXGroup;
+			children = (
+				737C8CF42BCAE91100C8B81B /* Voskle_Live_TranscribeTests.swift */,
+			);
+			path = "Voskle Live TranscribeTests";
+			sourceTree = "<group>";
+		};
+		737C8CFD2BCAE91100C8B81B /* Voskle Live TranscribeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				737C8CFE2BCAE91100C8B81B /* Voskle_Live_TranscribeUITests.swift */,
+				737C8D002BCAE91100C8B81B /* Voskle_Live_TranscribeUITestsLaunchTests.swift */,
+			);
+			path = "Voskle Live TranscribeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		737C8CDF2BCAE91000C8B81B /* Voskle Live Transcribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737C8D042BCAE91100C8B81B /* Build configuration list for PBXNativeTarget "Voskle Live Transcribe" */;
+			buildPhases = (
+				737C8CDC2BCAE91000C8B81B /* Sources */,
+				737C8CDD2BCAE91000C8B81B /* Frameworks */,
+				737C8CDE2BCAE91000C8B81B /* Resources */,
+				7377FF312C161F7F0041BCCD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voskle Live Transcribe";
+			packageProductDependencies = (
+				730E7E4D2C1B270F0035E999 /* Zip */,
+			);
+			productName = "Voskle Live Transcribe";
+			productReference = 737C8CE02BCAE91000C8B81B /* Voskle Live Transcribe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		737C8CEF2BCAE91100C8B81B /* Voskle Live TranscribeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737C8D072BCAE91100C8B81B /* Build configuration list for PBXNativeTarget "Voskle Live TranscribeTests" */;
+			buildPhases = (
+				737C8CEC2BCAE91100C8B81B /* Sources */,
+				737C8CED2BCAE91100C8B81B /* Frameworks */,
+				737C8CEE2BCAE91100C8B81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737C8CF22BCAE91100C8B81B /* PBXTargetDependency */,
+			);
+			name = "Voskle Live TranscribeTests";
+			productName = "Voskle Live TranscribeTests";
+			productReference = 737C8CF02BCAE91100C8B81B /* Voskle Live TranscribeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		737C8CF92BCAE91100C8B81B /* Voskle Live TranscribeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737C8D0A2BCAE91100C8B81B /* Build configuration list for PBXNativeTarget "Voskle Live TranscribeUITests" */;
+			buildPhases = (
+				737C8CF62BCAE91100C8B81B /* Sources */,
+				737C8CF72BCAE91100C8B81B /* Frameworks */,
+				737C8CF82BCAE91100C8B81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737C8CFC2BCAE91100C8B81B /* PBXTargetDependency */,
+			);
+			name = "Voskle Live TranscribeUITests";
+			productName = "Voskle Live TranscribeUITests";
+			productReference = 737C8CFA2BCAE91100C8B81B /* Voskle Live TranscribeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737C8CD82BCAE91000C8B81B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					737C8CDF2BCAE91000C8B81B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					737C8CEF2BCAE91100C8B81B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 737C8CDF2BCAE91000C8B81B;
+					};
+					737C8CF92BCAE91100C8B81B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 737C8CDF2BCAE91000C8B81B;
+					};
+				};
+			};
+			buildConfigurationList = 737C8CDB2BCAE91000C8B81B /* Build configuration list for PBXProject "Voskle Live Transcribe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 737C8CD72BCAE91000C8B81B;
+			packageReferences = (
+				730E7E4C2C1B270E0035E999 /* XCRemoteSwiftPackageReference "Zip" */,
+			);
+			productRefGroup = 737C8CE12BCAE91000C8B81B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				737C8CDF2BCAE91000C8B81B /* Voskle Live Transcribe */,
+				737C8CEF2BCAE91100C8B81B /* Voskle Live TranscribeTests */,
+				737C8CF92BCAE91100C8B81B /* Voskle Live TranscribeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737C8CDE2BCAE91000C8B81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F7D6C2C354A5F009A4471 /* InfoPlist.strings in Resources */,
+				737C8CEB2BCAE91100C8B81B /* Preview Assets.xcassets in Resources */,
+				737C8CE82BCAE91100C8B81B /* Assets.xcassets in Resources */,
+				736C4CC02BCC0527002A6944 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C8CEE2BCAE91100C8B81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C8CF82BCAE91100C8B81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		737C8CDC2BCAE91000C8B81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730E7E542C1C29390035E999 /* modal.swift in Sources */,
+				7377FF262C15BBE30041BCCD /* Vosk.swift in Sources */,
+				7384D5702C273EBE00069AE7 /* PartialTranscriptionResult.swift in Sources */,
+				736F97752C32B5D0009C33E7 /* Typography.swift in Sources */,
+				7377FF222C15BBC70041BCCD /* VoskModel.swift in Sources */,
+				736F97732C32B54B009C33E7 /* Color.swift in Sources */,
+				7384D5742C2B023900069AE7 /* util.swift in Sources */,
+				7384D5722C2807DB00069AE7 /* TranscriptView.swift in Sources */,
+				736F976F2C316C44009C33E7 /* AppStatus.swift in Sources */,
+				736F97772C32B6B8009C33E7 /* Theme.swift in Sources */,
+				730E7E502C1B2D670035E999 /* VLTViewModel.swift in Sources */,
+				7386BB052C35E1B500D1E866 /* FontSize.swift in Sources */,
+				73F29EF92C2E02EA007E70C5 /* SettingsView.swift in Sources */,
+				730E7E562C1D81870035E999 /* AppError.swift in Sources */,
+				737C8CE62BCAE91000C8B81B /* ContentView.swift in Sources */,
+				73CC01292C20C49400B1D724 /* LanguagePicker.swift in Sources */,
+				736F97792C344EF6009C33E7 /* ThemeSetting.swift in Sources */,
+				7384D56A2C273C6800069AE7 /* TranscriptionResult.swift in Sources */,
+				737C8CE42BCAE91000C8B81B /* VoskleLiveTranscribeApp.swift in Sources */,
+				730E7E522C1B34F90035E999 /* language.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C8CEC2BCAE91100C8B81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377FF232C15BBC70041BCCD /* VoskModel.swift in Sources */,
+				737C8CF52BCAE91100C8B81B /* Voskle_Live_TranscribeTests.swift in Sources */,
+				7377FF272C15BBE30041BCCD /* Vosk.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C8CF62BCAE91100C8B81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377FF282C15BBE30041BCCD /* Vosk.swift in Sources */,
+				7377FF242C15BBC70041BCCD /* VoskModel.swift in Sources */,
+				737C8CFF2BCAE91100C8B81B /* Voskle_Live_TranscribeUITests.swift in Sources */,
+				737C8D012BCAE91100C8B81B /* Voskle_Live_TranscribeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737C8CF22BCAE91100C8B81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737C8CDF2BCAE91000C8B81B /* Voskle Live Transcribe */;
+			targetProxy = 737C8CF12BCAE91100C8B81B /* PBXContainerItemProxy */;
+		};
+		737C8CFC2BCAE91100C8B81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737C8CDF2BCAE91000C8B81B /* Voskle Live Transcribe */;
+			targetProxy = 737C8CFB2BCAE91100C8B81B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73A844692C3546180002AEA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A8446A2C3546180002AEA6 /* en */,
+				73A8446B2C3546570002AEA6 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		737C8D022BCAE91100C8B81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		737C8D032BCAE91100C8B81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		737C8D052BCAE91100C8B81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Voskle Live Transcribe/Preview Content\"";
+				DEVELOPMENT_TEAM = F92GBC987S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Tim Böttcher";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(NSMicrophoneUsageDescription)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.almost-senseless.Voskle-Live-Transcribe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = bridging.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		737C8D062BCAE91100C8B81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Voskle Live Transcribe/Preview Content\"";
+				DEVELOPMENT_TEAM = F92GBC987S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Tim Böttcher";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(NSMicrophoneUsageDescription)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.almost-senseless.Voskle-Live-Transcribe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		737C8D082BCAE91100C8B81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.almost-senseless.Voskle-Live-TranscribeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voskle Live Transcribe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voskle Live Transcribe";
+			};
+			name = Debug;
+		};
+		737C8D092BCAE91100C8B81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.almost-senseless.Voskle-Live-TranscribeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voskle Live Transcribe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voskle Live Transcribe";
+			};
+			name = Release;
+		};
+		737C8D0B2BCAE91100C8B81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.almost-senseless.Voskle-Live-TranscribeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voskle Live Transcribe";
+			};
+			name = Debug;
+		};
+		737C8D0C2BCAE91100C8B81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.almost-senseless.Voskle-Live-TranscribeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voskle Live Transcribe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737C8CDB2BCAE91000C8B81B /* Build configuration list for PBXProject "Voskle Live Transcribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737C8D022BCAE91100C8B81B /* Debug */,
+				737C8D032BCAE91100C8B81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737C8D042BCAE91100C8B81B /* Build configuration list for PBXNativeTarget "Voskle Live Transcribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737C8D052BCAE91100C8B81B /* Debug */,
+				737C8D062BCAE91100C8B81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737C8D072BCAE91100C8B81B /* Build configuration list for PBXNativeTarget "Voskle Live TranscribeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737C8D082BCAE91100C8B81B /* Debug */,
+				737C8D092BCAE91100C8B81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737C8D0A2BCAE91100C8B81B /* Build configuration list for PBXNativeTarget "Voskle Live TranscribeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737C8D0B2BCAE91100C8B81B /* Debug */,
+				737C8D0C2BCAE91100C8B81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		730E7E4C2C1B270E0035E999 /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		730E7E4D2C1B270F0035E999 /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 730E7E4C2C1B270E0035E999 /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 737C8CD82BCAE91000C8B81B /* Project object */;
+}

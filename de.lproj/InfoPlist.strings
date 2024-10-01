@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Voskle Live Transcribe
+
+  Created by Tim Böttcher on 03.07.24.
+  
+*/
+
+"NSMicrophoneUsageDescription" = "Voskle Live-Transkription benötigt Zugriff auf Ihr Mikrofon, um Gespräche aufnehmen und transkribieren zu können.";
